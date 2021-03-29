@@ -2,7 +2,7 @@
 terraform {
  backend "s3" {
     encrypt = true
-    bucket = "lab9-6107013"
+    bucket = "lab9-61070132"
     region = "us-east-1"
     key = "infra-state"
  }
